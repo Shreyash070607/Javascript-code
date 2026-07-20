@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="result">Check Weather</h1>
+    <button onclick="checkWeather()">Check Weather</button>
+    <script>
+        function checkWeather() {
+            let temperature = Number(prompt("Enter the temperature:")); // Example temperature value
+            if (temperature >= 40) { 
+                document.getElementById("result").innerHTML = "It's a hot day!";
+            } else {
+                document.getElementById("result").innerHTML = "It's a cool day!";
+            }   
+        }
+    </script>
+</body>
+</html>
+    </script>
+</body>
+</html>
